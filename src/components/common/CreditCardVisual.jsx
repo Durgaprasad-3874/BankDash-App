@@ -11,9 +11,25 @@ const variantStyles = {
 
 function ChipIcon({ className }) {
   return (
-    <svg width="22" height="16" viewBox="0 0 22 16" fill="none" className={className}>
-      <rect x="0.5" y="0.5" width="8" height="15" rx="4" fill="currentColor" />
-      <rect x="13.5" y="0.5" width="8" height="15" rx="4" fill="currentColor" />
+    <svg width="26" height="20" viewBox="0 0 26 20" fill="none" className={className}>
+      <rect x="2.5" y="1.5" width="21" height="17" rx="3.5" fill="currentColor" opacity="0.16" />
+      <rect
+        x="2.5"
+        y="1.5"
+        width="21"
+        height="17"
+        rx="3.5"
+        stroke="currentColor"
+        strokeWidth="1.2"
+      />
+      <rect x="6" y="6" width="3" height="3" rx="0.8" fill="currentColor" />
+      <rect x="10.5" y="6" width="3" height="3" rx="0.8" fill="currentColor" />
+      <rect x="15" y="6" width="3" height="3" rx="0.8" fill="currentColor" />
+      <rect x="19.5" y="6" width="3" height="3" rx="0.8" fill="currentColor" />
+      <rect x="6" y="10.5" width="3" height="3" rx="0.8" fill="currentColor" />
+      <rect x="10.5" y="10.5" width="3" height="3" rx="0.8" fill="currentColor" />
+      <rect x="15" y="10.5" width="3" height="3" rx="0.8" fill="currentColor" />
+      <rect x="19.5" y="10.5" width="3" height="3" rx="0.8" fill="currentColor" />
     </svg>
   )
 }
